@@ -8,7 +8,7 @@ def search_recipe(search_term, num_results=3):
     
     #Open the website using Chrome
     url ="https://recipeland.com/recipes/by_ingredient"
-    chromedriver = "/Users/yusufsohoye/pythoncode/chromedriver"
+    chromedriver = "/Users/user/pythoncode/chromedriver"
     driver =  webdriver.Chrome(chromedriver)
     driver.get(url)
     
@@ -35,7 +35,7 @@ def takeaway(search_term, num_results=3):
     
     #Open the website using Chrome
     url ="https://deliveroo.co.uk/"
-    chromedriver = "/Users/yusufsohoye/pythoncode/chromedriver"
+    chromedriver = "/Users/user/pythoncode/chromedriver"
     driver =  webdriver.Chrome(chromedriver)
     driver.get(url)
     
